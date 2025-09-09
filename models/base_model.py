@@ -40,6 +40,4 @@ class BaseModel:
         dict_copy["created_at"] = self.created_at.isoformat()
         dict_copy["updated_at"] = self.updated_at.isoformat()
         dict_copy['__class__'] = self.__class__.__name__
-        return dict_copy
-
-   
+        return dict_copy   
